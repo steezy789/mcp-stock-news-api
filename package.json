@@ -1,0 +1,26 @@
+{
+  "name": "@steezy789/mcp-stock-news-api",
+  "version": "1.0.0",
+  "description": "MCP for fetching stock market news and information",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "stock",
+    "news",
+    "financial"
+  ],
+  "author": "steezy789",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
